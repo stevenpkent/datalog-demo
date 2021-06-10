@@ -1,5 +1,6 @@
 {:paths ["src" "resources"]
- :deps {org.clojure/clojure {:mvn/version "1.10.3"}}
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        juxt/crux-core {:mvn/version "RELEASE"}}
  :aliases
  {:run-m {:main-opts ["-m" "stevenpkent.datalog-demo"]}
   :run-x {:ns-default stevenpkent.datalog-demo
